@@ -914,7 +914,7 @@ func EqualFold(s, t string) bool {
 			continue
 		}
 
-		// Make sr < tr to simplify what follows.
+		// Make tr < sr to simplify what follows.
 		if tr < sr {
 			tr, sr = sr, tr
 		}
